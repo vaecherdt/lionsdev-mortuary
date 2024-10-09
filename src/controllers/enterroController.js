@@ -35,3 +35,5 @@ export const destroy = async (req, res) => {
         return res.status(400).json({ message: error.message });
     }
 };
+
+// os comentários do vivosController valem para cá também

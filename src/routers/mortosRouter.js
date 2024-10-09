@@ -14,3 +14,5 @@ router.put('/:id', update);
 router.delete('/:id', destroy);
 
 export default router;
+
+// os mesmos comentários do enterroRouter servem para cá

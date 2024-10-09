@@ -21,3 +21,5 @@ const mortoSchema = new Schema({
 });
 
 export default model('Morto', mortoSchema);
+
+// os mesmos comentários do enterroModel valem para cá

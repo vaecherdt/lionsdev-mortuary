@@ -1,5 +1,6 @@
-import { Schema, model } from 'mongoose';
+import { Schema, model } from 'mongoose'; 
 
+// criar o esquema, é a estrutura dos dados que serão inseridos no banco
 const enterroSchema = new Schema({
     data: {
         type: Date,
@@ -10,7 +11,7 @@ const enterroSchema = new Schema({
         required: true
     },
     vivo: {
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId, // tipo de dado que o mongoose usa para referenciar um documento de outra coleção
         ref: 'Vivo',
         required: true
     },
@@ -21,4 +22,5 @@ const enterroSchema = new Schema({
     }
 });
 
+// criando o modelo baseado no esquema, e exportando
 export default model('Enterro', enterroSchema);

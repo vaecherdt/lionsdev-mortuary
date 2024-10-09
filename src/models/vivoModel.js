@@ -20,3 +20,5 @@ const vivoSchema = new Schema({
 });
 
 export default model('Vivo', vivoSchema);
+
+// os mesmos comentários do enterroModel valem para cá
