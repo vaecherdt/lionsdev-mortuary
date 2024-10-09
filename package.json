@@ -1,0 +1,25 @@
+{
+  "name": "lionsdev-funeraria",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vaecherdt/lionsdev-funeraria.git"
+  },
+  "author": "João Pedro dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaecherdt/lionsdev-funeraria/issues"
+  },
+  "homepage": "https://github.com/vaecherdt/lionsdev-funeraria#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
